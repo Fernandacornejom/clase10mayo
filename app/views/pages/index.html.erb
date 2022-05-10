@@ -1,11 +1,8 @@
-<%= params[:l] %>
-
-
-<h1> El resultado de la suma es:
-<%= params[:x].to_i + params[:y].to_i %>
-</h1>
-<form>
-<input name="x">
-<input name="y">
+<h1> formulario de contacto </h1>
+<form method="get" action="/pages/create">
+email: <input name="email" type="email">
+age: <input name="age" type="number">
+<input type="submit" value="Enviar">
+Comment: <textarea name="comment"> </textarea>
 <input type="submit" value="Enviar">
 </form>
